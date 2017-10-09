@@ -1,0 +1,186 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #1a82f7;
+	font-weight: 600;
+	font-size: 1.2em;
+	font-family: "Calibri", Times, serif; 
+	color: #e5c100;
+	text-align: center;
+}
+
+a:link, a:active, a:visited  {
+	color: #e5c100; 
+	text-decoration: none;
+	padding: 0px 10px;
+}
+
+a:hover {
+	border-radius: 25px;
+    border: 2px solid #FFF;
+	background: #000;
+	font-size: 1.1em;
+}
+
+h1{
+	line-height: 2em;
+}
+
+nav {
+	width: 100%;
+	height: 150px;
+	background: #1a82f7;
+	 /* Safari 4-5, Chrome 1-9 */ background: url(images/ucd-src-logo.png) no-repeat, -webkit-gradient(circle, 0% 0%, 0% 100%, from(#2F2727), to(#1a82f7)); 
+	 /* Safari 5.1, Chrome 10+ */ background: url(images/ucd-src-logo.png) no-repeat,  -webkit-radial-gradient(circle, #1a82f7, #2F2727); 
+	 /* Firefox 3.6+ */ background: url(images/ucd-src-logo.png) no-repeat, -moz-radial-gradient(circle, #1a82f7, #2F2727); 
+	 /* IE 10 */ background: url(images/ucd-src-logo.png) no-repeat, -ms-radial-gradient(circle, #1a82f7, #2F2727); 
+	 /* Opera 11.10+ */ background: url(images/ucd-src-logo.png) no-repeat, -o-radial-gradient(circle, #1a82f7, #2F2727);
+	background-size: contain;
+	position: fixed;
+	z-index: 3;
+	margin: 0px auto;
+	box-shadow: 0px 3px 10px #000;
+	overflow:hidden;
+	float:left;
+}
+
+nav img {
+	float: left;
+	max-height: 100%; 
+    width: auto;
+}
+
+nav ul {
+	width: 50%;
+	border-top: 2px solid #fff;
+	padding: 8px 0px;
+	list-style-type: none;
+	margin: 0px auto;
+}
+nav li {
+	display: inline;
+}
+
+.nav_button {
+	margin-top:-150px; 
+	z-index: 0; 
+	position: absolute;
+}
+
+#wrapper {
+	float: left;
+	margin-top: 150px;
+}
+
+.bg {
+	height: 720px;
+	width: 100%;
+	background: #1a82f7;
+	z-index: 1;
+}
+
+.fg {
+	height: auto;
+	width: 100%;
+	line-height: 1.5;
+	background: #1a82f7;
+	 /* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2F2727), to(#1a82f7)); 
+	 /* Safari 5.1, Chrome 10+ */ background: -webkit-radial-gradient(circle, #1a82f7, #2F2727); 
+	 /* Firefox 3.6+ */ background: -moz-radial-gradient(circle, #1a82f7, #2F2727); 
+	 /* IE 10 */ background: -ms-radial-gradient(circle, #1a82f7, #2F2727); 
+	 /* Opera 11.10+ */ background: -o-radial-gradient(circle, #1a82f7, #2F2727);
+	position: relative;
+	z-index: 2;
+	padding: 10px 0px;
+}
+
+.content {
+	max-width: 34%;
+	margin: 0px auto;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#fg_2 th, td {
+	border: 2px solid #fff; 
+	border-collapse: collapse; 
+	padding: 15px;
+}
+
+#fg_4 ul {
+	border-radius: 25px;
+    border: 2px solid #000;
+	padding: 15px; 
+}
+
+#fg_4 a  {
+	border:none; 
+	background: none; 
+	padding: 0px; 
+	font-size: 1em;
+}
+
+#fg_4 img {
+	height:auto; 
+	max-width:100%; 
+}
+
+ #bg_1 {
+	background: url(images/bg_1.jpg) no-repeat fixed 0% 0% / 100% 100%;
+}
+
+#bg_2 {
+	background: url(images/bg_2.jpg) no-repeat fixed 0% 0% / 100% 100%;
+}
+
+#bg_3 {
+	background: url(images/bg_3.jpg) no-repeat fixed 0% 0% / 100% 100%;
+}	
+
+#bg_4 {
+	background: url(images/bg_4.jpg) no-repeat fixed 0% 0% / 100% 100%;
+}
+
+#bg_5 {
+	background: url(images/bg_5.jpg) no-repeat fixed 0% 0% / 100% 100%;
+}
+
+form {
+	font-size: 1.3em;
+}
+
+footer {
+	height: auto;
+	width: 100%;
+	padding: 15px 0px;
+	background: #1a82f7;
+	 /* Safari 4-5, Chrome 1-9 */ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#2F2727), to(#1a82f7)); 
+	 /* Safari 5.1, Chrome 10+ */ background: -webkit-radial-gradient(circle, #1a82f7, #2F2727); 
+	 /* Firefox 3.6+ */ background: -moz-radial-gradient(circle, #1a82f7, #2F2727); 
+	 /* IE 10 */ background: -ms-radial-gradient(circle, #1a82f7, #2F2727); 
+	 /* Opera 11.10+ */ background: -o-radial-gradient(circle, #1a82f7, #2F2727);
+	float: left;
+	z-index: 2;
+	font-size: 0.8em;
+}
+
+#fb_link {
+    border: none;
+	background: transparent;
+	position: fixed; 
+	bottom: 10px; 
+	right: 10px; 
+	z-index:3; 
+}
+
+#fb_link img {
+	border-radius: 15px; 
+	border: 3px solid #fff;
+}
+
+
